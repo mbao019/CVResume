@@ -34,7 +34,6 @@ root.render(
     <RnExp />
     <Volunteering />
     <Hobbies />
-    <Contact />
   </React.StrictMode>
 );
 

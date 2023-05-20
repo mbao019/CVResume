@@ -16,9 +16,10 @@ import CardMedia from '@mui/material/CardMedia';
 
 const Grid = styled(MuiGrid)(({ theme }) => ({
     width: '100%',
-    ...theme.typography.body2,
+    color: 'royalblue',
+    ...theme.typography.body1,
     '& [role="separator"]': {
-      margin: theme.spacing(0, 10),
+      margin: theme.spacing(5, 5),
     },
 }));
 
@@ -28,12 +29,15 @@ function Education() {
         <div>
             <Typography variant="h6" component="div">Bachelor of Computer Information System</Typography>
             <Typography sx={{ mb: 1.5 }} color="text.secondary"><p>Sept 2019 - Dec 2022</p></Typography>
-            <Typography variant="body2"><p>Mount Royal University
+            <Typography variant="body2">
+                <p>Mount Royal University
                 <ul>
+                    <li>GPA 3.6</li>
                     <li>Dean’s Honor Roll (Fall 2019 - Winter 2022)</li>
                     <li>Jason Lang’s Scholarship (2020 - 2022)</li>
                 </ul>
-            </p></Typography>
+                </p>
+            </Typography>
            
         </div>
     );
@@ -42,7 +46,13 @@ function Education() {
         <div>
             <Typography variant="h6" component="div">Bachelor of Nursing</Typography>
             <Typography sx={{ mb: 1.5 }} color="text.secondary"><p>Sept 2014 - Jun 2018</p></Typography>
-            <Typography variant="body2"><p>Mount Royal University</p></Typography>
+            <Typography variant="body2">
+                <p>Mount Royal University
+                <ul>
+                    <li>GPA 3.4</li>
+                </ul>
+                </p>
+            </Typography>
         </div>
     );
 

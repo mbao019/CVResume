@@ -48,20 +48,21 @@
   padding-bottom: 50px;
 }
 
-.cvContainer h2 {
-  text-align: center;
-}
-
-.cvContainer p {
-  padding: 5px 30%;
+.contactContainer {
+  width: 40%;
 }
 
 .skillsContainer {
-  padding: 10px 20%;
+  padding: 30px 10%;
   background-color: lightcyan;
 }
 
+.skillsContainer h1 {
+  text-align: center;
+}
+
 .skillsContainer div {
+  padding: 10px;
   text-align: center;
 }
 
@@ -70,11 +71,10 @@
 }
 
 .leftgrid {
-  padding: 20px;
-  padding-left: 20%;
+  padding-left: 15%;
 }
 
 .rightgrid {
-  padding: 20px;
   padding-right: 15%;
+  font-weight: ;
 }

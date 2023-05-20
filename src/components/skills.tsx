@@ -16,218 +16,109 @@ function Skills() {
 
         <h1>Skills & Competencies</h1>
 
-        <div style={{ padding: 30 }}>
+        <div>
             
-            <Grid container spacing={5}>
-
-                <Grid item xs={6} lg={1.5}>
+            <Grid container spacing={1}>
+                <Grid item xs={6} lg={6}>
                 <Card sx={{color:'red'}}>
                     <CardContent>
-                        <Typography>Java</Typography>
+                        <Typography>Java, Python, PHP</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'red'}}>
+                <Grid item xs={6} lg={6}>
+                <Card sx={{color:'blue'}}>
                     <CardContent>
-                        <Typography>Python</Typography>
+                        <Typography>React, TypeScript, HTML, CSS, JavaScript, DOM, jQuery</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'green'}}>
-                    <CardContent><Typography>React</Typography></CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'green'}}>
+                <Grid item xs={6} lg={3}>
+                <Card sx={{color:'orange'}}>
                     <CardContent>
-                        <Typography>HTML</Typography>
+                        <Typography>PrimeReact, MaterialUI</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'green'}}>
+                <Grid item xs={6} lg={3}>
+                <Card sx={{color:'purple'}}>
                     <CardContent>
-                        <Typography>CSS</Typography>
+                        <Typography>MongoDB, Azure</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'green'}}>
+
+                <Grid item xs={6} lg={3}>
+                <Card sx={{color:'grey'}}>
                     <CardContent>
-                        <Typography>JavaScript</Typography>
+                        <Typography>MySQL, NoSQL</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'green'}}>
+                <Grid item xs={6} lg={3}>
+                <Card sx={{color:'brown'}}>
                     <CardContent>
-                        <Typography>DOM</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'green'}}>
-                    <CardContent>
-                        <Typography>jQuery</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'green'}}>
-                    <CardContent>
-                        <Typography>CSOM</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color:'green'}}>
-                    <CardContent>
-                        <Typography>PHP</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color: 'goldenrod'}}>
-                    <CardContent>
-                        <Typography>MongoDB</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color: 'goldenrod'}}>
-                    <CardContent>
-                        <Typography>Azure</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-            
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color: 'goldenrod'}}>
-                    <CardContent>
-                        <Typography>MySQL</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color: 'goldenrod'}}>                   
-                 <CardContent>
                         <Typography>Figma</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={1.5}>
-                <Card>
-                    <CardContent> 
-                        <Typography sx={{color:'purple'}}>Data Modelling</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color: 'purple'}}>                   
-                    <CardContent> 
-                        <Typography>ERD</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color: 'purple'}}>                   
-                    <CardContent> 
-                        <Typography>Use Case Diagrams</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color: 'purple'}}>                   
-                    <CardContent> 
-                        <Typography>Relational Model</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card sx={{color: 'purple'}}>                   
-                    <CardContent> 
-                        <Typography>State Diagrams</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={1.5}>
-                <Card  sx={{color:'purple'}}>
-                    <CardContent> 
-                        <Typography>Star Schema</Typography>
-                    </CardContent>
-                </Card>
-                </Grid>
-
-                <Grid item xs={6} lg={2}>
-                <Card sx={{color: 'grey'}}>
+                <Grid item xs={12} lg={12}>
+                <Card sx={{color:'green'}}>
                     <CardContent>
-                        <Typography>SharePoint</Typography>
+                        <Typography>Data Modeling: ERD, Use Case Diagrams, Relational Model, State Diagrams, Star Schema</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={2}>
-                <Card sx={{color: 'grey'}}>                    
+                <Grid item xs={6} lg={6}>
+                <Card sx={{color:'black'}}>
                     <CardContent>
-                        <Typography>SharePoint Designer</Typography>
+                        <Typography>ServiceNow ITSM, Open Text Web Site Management</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={2}>
-                <Card sx={{color: 'grey'}}>                    
+                <Grid item xs={6} lg={6}>
+                <Card sx={{color:'goldenrod'}}>
                     <CardContent>
-                        <Typography>Open Text Web Site Management</Typography>
+                        <Typography>SharePoint, SharePoint Designer, SharePoint CSOM</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
                 <Grid item xs={6} lg={2}>
-                <Card sx={{color:'blue'}}>
+                <Card sx={{color:'violet'}}>
                     <CardContent>
                         <Typography>Critical Thinking & Problem-Solving</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
+
                 <Grid item xs={6} lg={2}>
-                <Card sx={{color:'blue'}}>
-                <CardContent>
+                <Card sx={{color:'violet'}}>
+                    <CardContent>
                         <Typography>Effective Communication</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
                 <Grid item xs={6} lg={2}>
-                <Card sx={{color:'blue'}}>
+                <Card sx={{color:'violet'}}>
                     <CardContent>
-                        <Typography>Collaborative Team-layer</Typography>
+                        <Typography>Collaborative Team-player</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
 
                 <Grid item xs={6} lg={2}>
-                <Card sx={{color:'blue'}}>
+                <Card sx={{color:'violet'}}>
                     <CardContent>
                         <Typography>Thorough Documentation Skills</Typography>
                     </CardContent>
@@ -235,22 +126,20 @@ function Skills() {
                 </Grid>
 
                 <Grid item xs={6} lg={2}>
-                <Card sx={{color:'blue'}}>
+                <Card sx={{color:'violet'}}>
                     <CardContent>
                         <Typography>Time Management & Adaptability</Typography>
                     </CardContent>
                 </Card>
                 </Grid>
-                
+
                 <Grid item xs={6} lg={2}>
-                <Card sx={{color:'blue'}}>
+                <Card sx={{color:'violet'}}>
                     <CardContent>
-                        <Typography>Positive Attitude <EmojiEmotionsOutlinedIcon /></Typography>
+                        <Typography>Positive Attitude <EmojiEmotionsOutlinedIcon></EmojiEmotionsOutlinedIcon></Typography>
                     </CardContent>
                 </Card>
                 </Grid>
-                
-      
             </Grid>
         </div>
     </div>
