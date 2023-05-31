@@ -8,14 +8,12 @@ function Nav() {
 
     return (
 
-        <div>
-            <div className='navContainer'>
-                <h1>Getting to know me!  </h1>
-                {/* {MailOutlineIcon} */}
+        <div className='navContainer'>
+            <div className='header'>
+                <h1>MINH BAO</h1>
+            </div>
+            <LinearProgress color="secondary" />
         </div>
-            <LinearProgress />
-        </div>
-      
     )
 }
 

@@ -12,10 +12,11 @@ import Education from './components/education';
 import WorkExp from './components/workExp';
 import CoopExp from './components/coopExp';
 import SchoolProjects from './components/schoolProjects';
+import SideProjects from './components/sideProjects';
 import RnExp from './components/rnExp';
 import Volunteering from './components/volunteering';
 import Hobbies from './components/hobbies';
-import Contact from './components/contact';
+import Footer from './components/footer';
 
 
 const root = ReactDOM.createRoot(
@@ -26,14 +27,16 @@ root.render(
     {/* <App /> */}
     <Nav />
     <CoverLetter />
-    <Skills />
+    {/* <Skills /> */}
     <Education />
     <WorkExp />
     <CoopExp />
     <SchoolProjects />
+    <SideProjects />
     <RnExp />
     <Volunteering />
     <Hobbies />
+    <Footer />
   </React.StrictMode>
 );
 

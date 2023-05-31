@@ -40,41 +40,197 @@
 
 /* Newly added code */
 
+.navContainer h1 {
+  text-align: left;
+  /* padding-left: 11%; */
+  text-align: center;
+} 
+
 .navContainer {
-  padding: 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 1px;
+  z-index: 9999;
 }
 
 .cvContainer {
-  padding-bottom: 50px;
+  padding:  0px 10%;
+}
+
+.cvContainer img {
+  border-radius: 50%;
 }
 
 .contactContainer {
   width: 40%;
 }
 
-.skillsContainer {
-  padding: 30px 10%;
-  background-color: lightcyan;
+h1 {
+  text-align: center;
 }
 
 .skillsContainer h1 {
-  text-align: center;
+  color: navy;
 }
 
-.skillsContainer div {
-  padding: 10px;
-  text-align: center;
+.skillsContainer {
+  padding: 30px 10%;
+  height: max-content; 
+  background-color: aliceblue;
+}
+
+.skillsContainer li {
+  text-align: left;
 }
 
 .educationContainer {
+  padding: 20px 10%;
+  text-align: -webkit-center;  
+}
+
+.educationContainer li {
+  padding: 0px;
+}
+
+.topgrid .botgrid {
+  padding: 5%;
+}
+
+.topgrid:hover, .botgrid:hover {
+  transition: all 300ms 1ms;
+  transform: scale(1.1);
+}
+
+.workContainer {
+  padding: 10px 20%;
+  background-color: antiquewhite;
+}
+
+.workContainer h1 {
+  color: brown;
+}
+
+.workContainer h2 {
+  color: blue;
+}
+
+.workContainer h3 {
+  color: green;
+}
+
+.coopContainer {
+  padding: 20px 10%;
+  background-image: url("./images/8665.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.coopContainer h3 {
+  color: blue;
+  text-align: center;
+}
+
+.coopContainer h4 {
+  color: lightblue;
+  padding: 0 10%;
+}
+
+.projectsContainer {
+  background-image: linear-gradient(to bottom, #ffffff, #f3ecf6, #efd7e6, #edc3ce, #e9afb0);    
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10%;
+}
+
+.projectsHeader {
+  background-color: palevioletred;
+  color: white;
+  padding: 1px 0px;
+}
+
+.project1:hover {
+    transition: all 300ms 1ms;
+    transform: scale(1.2);
+}
+
+.sideProjects {
+  padding: 30px;
+  display: flex;
+  justify-content: center;  
+  justify-content: space-evenly;
+}
+
+.leftgrid, .rightgrid {
+  border-radius: 10;
+  border-style: solid;
+  border-color: #61dafb;
+}
+
+.leftgrid:hover, .rightgrid:hover {
+  border-color: darkmagenta;
+  transition: all 300ms 1ms;
+  transform: scale(1.1);
+}
+
+.rnHeader h1 {
+  background-color: darkcyan;
+  padding: 50px 10%;
+  color: white;
+}
+
+.rnContainer  {
+  padding: 0 10%;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;  
+}
+
+.rnContainer h3 {
+  color: goldenrod;
+}
+
+.rnContainer h2 {
+  color: darkgreen;
+}
+
+.volunteerContainer {
+  background-color: darkgrey;
+  color: white;
   padding: 20px;
 }
 
-.leftgrid {
-  padding-left: 15%;
+.volunteerContainer h1 {
+  padding-bottom: 30px;
 }
 
-.rightgrid {
-  padding-right: 15%;
-  font-weight: ;
+.volunteerContainer div {
+    padding: 10px;
+    text-align: -webkit-center;
+}
+
+.hobbiesContainer {
+  padding: 0 10%;
+  color: goldrod;
+}
+
+.hobbiesContainer h1 {
+  color: goldenrod;
+}
+
+.hobbiesContainer h1 {
+  padding: 30px;
+}
+
+.footerContainer {
+  background-color: black;
+  padding: 1px;
+}
+
+.footerContainer h2 {
+  color: white;
+  text-align: center;
 }
