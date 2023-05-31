@@ -49,9 +49,9 @@ function SideProjects () {
                 </Typography>
             </CardContent>
 
-            <CardActions>
+            {/* <CardActions>
                 <Button onClick={() => { alert("Soon!")}} size="small">CLICK HERE!</Button>
-            </CardActions>
+            </CardActions> */}
             </Card>
         
         </div>

@@ -42,8 +42,8 @@
 
 .navContainer h1 {
   text-align: left;
-  /* padding-left: 11%; */
   text-align: center;
+  width: 100%;
 } 
 
 .navContainer {
@@ -109,8 +109,10 @@ h1 {
   background-color: antiquewhite;
 }
 
-.workContainer h1 {
-  color: brown;
+.workHeader h1 {
+  background-color: brown;
+  padding: 20px 10%;
+  color: white;
 }
 
 .workContainer h2 {
@@ -177,7 +179,7 @@ h1 {
 
 .rnHeader h1 {
   background-color: darkcyan;
-  padding: 50px 10%;
+  padding: 20px 10%;
   color: white;
 }
 
