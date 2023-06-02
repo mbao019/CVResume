@@ -8,9 +8,14 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
+import Link from '@mui/material/Link';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import useTheme from '@mui/material/styles/useTheme';
 
 
 function SideProjects () {
+
+    const theme = useTheme();
 
     return (
 
@@ -18,6 +23,7 @@ function SideProjects () {
             <Card sx={{
                 maxWidth: 600, 
                 borderRadius: 5,
+                // flexDirection: {xs: 'row', sm:'row', md:'row'},
                 }} 
                 className='leftgrid'> 
                 <CardContent>
@@ -27,11 +33,14 @@ function SideProjects () {
                     <Typography variant="body2">
                         <ListItem><ListItemText secondary="Used TypeScript to developed a website that replicates my personal resume"/></ListItem>   
                         <ListItem><ListItemText secondary="Integrated MaterialUI (MUI) to design the UI/UX layout"/></ListItem>   
+                        <ListItem><ListItemText secondary="Deployed site on Netlify"/></ListItem>
+                        <ListItem><ListItemText secondary="Responsive for mobile, tablet, and desktop"/></ListItem>
+
                     </Typography>
                 </CardContent>
             </Card>
 
-            <Divider orientation='vertical' flexItem sx={{ color: 'darkblue' }}>SIDE PROJECTS</Divider>
+            <Divider orientation={useMediaQuery(theme.breakpoints.down("md")) ? "horizontal" : "vertical"} flexItem sx={{ color: 'darkblue', padding: 2 }}>SIDE PROJECTS</Divider>
 
             <Card sx={{
                 maxWidth: 600, 

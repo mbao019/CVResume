@@ -76,6 +76,7 @@ function Education() {
                     width: 'fit-content',
                     borderRadius: 1,
                     bgcolor: 'background.paper',
+                    flexDirection: {xs: 'column', sm:'column', md:'row'},
                     '& svg': {
                     m: 1.5,
                     },
@@ -88,7 +89,7 @@ function Education() {
                 
                 <Root>
                     <Grid item xs className="topgrid">
-                        <Card sx={{width: 500}}>
+                        <Card sx={{width: 330}}>
                         <CardMedia
                             sx={{ height: 200}}
                             image={bcisLogo}
@@ -103,7 +104,7 @@ function Education() {
                     <Divider sx={{color:'blue', padding: 1}}>EDUCATION</Divider>
 
                     <Grid item xs className="botgrid">
-                    <Card sx={{width: 500}}>
+                    <Card  sx={{width: 330}}>
                         <CardMedia
                             sx={{ height: 200}}
                             image={nursingLogo}

@@ -20,7 +20,7 @@ function CoopExp() {
             <h1>COOP Work Experience</h1>
 
             <Divider>
-                <Chip label="WEB PRESENCE & COLLABORATION SERVICES TEAM (WP&C)" style={{color: 'blue'}} />
+                <Chip label="Web Presence & Collaboration Services Team" style={{color: 'blue'}} />
             </Divider>
             <br></br>
 
@@ -33,7 +33,7 @@ function CoopExp() {
                     bgcolor: 'background.paper',
                     borderRadius: 2,
                     opacity: 0.8,
-                    background: 'none',
+                    // background: 'none',
                 }}
                 >
                 <ListItem>
@@ -41,7 +41,7 @@ function CoopExp() {
                         <Avatar>
                             <ViewKanbanIcon />
                         </Avatar>
-                    </ListItemAvatar>
+                    </ListItemAvatar> 
 
                     <ListItemText primary="INTERN" secondary="May 2021 – Dec 2021" />
 
@@ -56,7 +56,7 @@ function CoopExp() {
                         <ListItem><ListItemText primary="Took initiative in assigning myself additional tasks and bugs that are outstanding in addition to logging in any bugs that are detected through daily QA testing"/></ListItem>  
                     </List>
 
-                </ListItem>
+                </ListItem> 
 
                 <Divider />
 

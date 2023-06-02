@@ -23,7 +23,7 @@ function Volunteering () {
             <h1>Volunteer Experience</h1>
 
             <Grid container spacing={1} style={{ justifyContent: 'space-between'}}>
-                <Grid item xs={6} lg={3}>
+                <Grid item xs={12} sm={6} md={6} lg={3}>
                     <Card sx={{ maxWidth: 345 }}>
                     <CardActionArea>
                         <CardMedia
@@ -45,7 +45,7 @@ function Volunteering () {
                     </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={3}>
+                <Grid item xs={12} sm={6} md={6} lg={3}>
                     <Card sx={{ maxWidth: 345 }}>
                     <CardActionArea>
                         <CardMedia
@@ -68,7 +68,7 @@ function Volunteering () {
                 </Grid>
 
 
-                <Grid item xs={6} lg={3}>
+                <Grid item xs={12} sm={6} md={6} lg={3}>
                     <Card sx={{ maxWidth: 345 }}>
                     <CardActionArea>
                         <CardMedia
@@ -93,7 +93,7 @@ function Volunteering () {
                     </Card>
                 </Grid>
 
-                <Grid item xs={6} lg={3}>
+                <Grid item xs={12} sm={6} md={6} lg={3}>
                     <Card sx={{ maxWidth: 345 }}>
                     <CardActionArea>
                         <CardMedia

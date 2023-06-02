@@ -40,10 +40,11 @@
 
 /* Newly added code */
 
+
 .navContainer h1 {
   text-align: left;
   text-align: center;
-  width: 100%;
+  /* width: 100%; */
 } 
 
 .navContainer {
@@ -64,9 +65,10 @@
   border-radius: 50%;
 }
 
-.contactContainer {
+/* .contactContainer {
   width: 40%;
-}
+  padding-bottom: 10px;
+} */
 
 h1 {
   text-align: center;
@@ -77,7 +79,7 @@ h1 {
 }
 
 .skillsContainer {
-  padding: 30px 10%;
+  padding: 30px;
   height: max-content; 
   background-color: aliceblue;
 }
@@ -87,7 +89,7 @@ h1 {
 }
 
 .educationContainer {
-  padding: 20px 10%;
+  padding: 20px;
   text-align: -webkit-center;  
 }
 
@@ -111,7 +113,7 @@ h1 {
 
 .workHeader h1 {
   background-color: brown;
-  padding: 20px 10%;
+  padding: 20px;
   color: white;
 }
 
@@ -124,7 +126,8 @@ h1 {
 }
 
 .coopContainer {
-  padding: 20px 10%;
+  padding: 20px;
+  text-align: -webkit-center;
   background-image: url("./images/8665.jpg");
   background-repeat: no-repeat;
   background-position: left top;
@@ -158,12 +161,12 @@ h1 {
     transform: scale(1.2);
 }
 
-.sideProjects {
+/* .sideProjects {
   padding: 30px;
   display: flex;
   justify-content: center;  
   justify-content: space-evenly;
-}
+} */
 
 .leftgrid, .rightgrid {
   border-radius: 10;
@@ -182,14 +185,14 @@ h1 {
   padding: 20px 10%;
   color: white;
 }
-
+/* 
 .rnContainer  {
   padding: 0 10%;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-evenly;
   text-align: center;  
-}
+} */
 
 .rnContainer h3 {
   color: goldenrod;
@@ -215,7 +218,7 @@ h1 {
 }
 
 .hobbiesContainer {
-  padding: 0 10%;
+  padding: 0 20px;
   color: goldrod;
 }
 
@@ -224,7 +227,7 @@ h1 {
 }
 
 .hobbiesContainer h1 {
-  padding: 30px;
+  padding: 10px;
 }
 
 .footerContainer {
@@ -235,4 +238,101 @@ h1 {
 .footerContainer h2 {
   color: white;
   text-align: center;
+}
+
+.hobbiesList ul {
+  column-count: 5;
+}
+
+/* desktop display */
+@media only screen and (min-width: 901px) {
+
+  .sideProjects {
+    padding: 30px;
+    display: flex;
+    justify-content: center;  
+    justify-content: space-evenly;
+  }
+
+  .rnContainer  {
+    padding: 0 10%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;  
+  }
+
+  .rnContainer div  {
+    width: 300px;
+  }
+
+  .hobbiesList ul {
+    column-count: 5;
+  }
+}
+
+/* tablet display */
+@media only screen and (max-width: 900px) {
+
+  .contactContainer {
+    padding-bottom: 20px;
+  }
+
+  .skillsContainer {
+    margin: 20px;
+  }
+
+  .coopContainer ul li {
+    display:block;
+  }
+  
+  .educationContainer {
+    margin: 10px;
+  }
+
+  .sideProjects {
+    padding: 30px;
+    text-align: -webkit-center;
+  }
+
+  .rnContainer  {
+    padding: 0 10%;
+    padding-bottom: 50px;
+    text-align: -webkit-center; 
+  }
+
+  .hobbiesList ul {
+    column-count: 3 !important;
+  }
+
+  .hobbiesList ul li div{
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .cvContainer, .coopContainer, .rnContainer, .educationContainer {
+    padding: 0 5px;
+  }
+
+  .workContainer {
+    padding: 10px;
+  }
+
+  .rnContainer img  {
+    width: 250px;
+  }
+
+  .educationContainer {
+    margin: 0;
+  }
+
+  .hobbiesList ul {
+    column-count: 2 !important;
+  }
+
+  .hobbiesList ul li div{
+    padding: 0 2px;
+  } 
 }

@@ -19,7 +19,7 @@ function RnExp() {
 
             <div className='rnContainer'>
 
-                <div style={{width: 450}}>
+                <div>
                     <img src={biometric} alt='biometric' width={300}></img>
                     <h2>Biometric Health Screening</h2>
                     <h3>Lifemark</h3>
@@ -30,7 +30,7 @@ function RnExp() {
                     <ListItem><ListItemText primary="Adhered to the organization’s policy, procedures, and protocols by upholding professional standards at various site locations throughout Calgary"/></ListItem>   
                 </div>
 
-                <div style={{width: 450}}>
+                <div>
                     <img src={surgical} alt='surgical' width={300}></img>
                     <h2>Surgical Float Team</h2>
                     <h3>Alberta Health Services (AHS)</h3>
@@ -43,7 +43,7 @@ function RnExp() {
                 </div>
 
 
-                <div style={{width: 450}}>
+                <div>
                     <img src={cdc} alt='cdc' width={300}></img>
                     <h2>Case and Contact Tracing</h2>
                     <h3>Centers for Disease Control and Prevention (CDC)</h3>

@@ -20,6 +20,7 @@ function CoverLetter () {
                     width: 'fit-content',
                     padding: 5,
                     borderRadius: 1,
+                    flexDirection: {xs: 'column', sm:'column', md:'row'},
                     bgcolor: 'background.paper',
                     '& svg': {
                         m: 0.5,
