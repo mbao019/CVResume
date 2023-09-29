@@ -9,7 +9,7 @@ import Nav from './components/nav';
 import CoverLetter from './components/coverLetter';
 import Skills from './components/skills';
 import Education from './components/education';
-import WorkExp from './components/workExp';
+// import WorkExp from './components/workExp';
 import CoopExp from './components/coopExp';
 import SchoolProjects from './components/schoolProjects';
 import SideProjects from './components/sideProjects';
@@ -27,9 +27,9 @@ root.render(
     {/* <App /> */}
     <Nav />
     <CoverLetter />
-    {/* <Skills /> */}
+    <Skills />
     <Education />
-    <WorkExp />
+    {/* <WorkExp /> */}
     <CoopExp />
     <SchoolProjects />
     <SideProjects />

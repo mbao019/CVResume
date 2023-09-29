@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -45,7 +46,7 @@
   text-align: left;
   text-align: center;
   /* width: 100%; */
-} 
+}
 
 .navContainer {
   position: sticky;
@@ -58,39 +59,57 @@
 }
 
 .cvContainer {
-  padding:  0px 10%;
+  padding: 0px 10%;
 }
 
 .cvContainer img {
   border-radius: 50%;
 }
 
-/* .contactContainer {
-  width: 40%;
-  padding-bottom: 10px;
-} */
+#cvInfo {
+  padding: 0 10%;
+}
 
 h1 {
   text-align: center;
 }
 
-.skillsContainer h1 {
-  color: navy;
+.skillsHeader h1 {
+  background-color: lightsteelblue;
+  padding: 20px;
+  margin: 0px;
+  color: white;
 }
 
 .skillsContainer {
-  padding: 30px;
-  height: max-content; 
+  padding-bottom: 20px;
+  /* height: max-content; */
   background-color: aliceblue;
+  text-align: center;
+}
+
+.skillsContainer ul {
+  display: inline-block;
 }
 
 .skillsContainer li {
   text-align: left;
 }
 
+.educationHeader h1 {
+  background-color: #FF6666;
+  padding: 20px;
+  margin: 0px;
+  color: white;
+}
+
 .educationContainer {
   padding: 20px;
-  text-align: -webkit-center;  
+  text-align: -webkit-center;
+}
+
+.educationContainer div {
+  padding: 5px;
 }
 
 .educationContainer li {
@@ -101,19 +120,22 @@ h1 {
   padding: 5%;
 }
 
-.topgrid:hover, .botgrid:hover {
+.topgrid:hover,
+.botgrid:hover {
   transition: all 300ms 1ms;
   transform: scale(1.1);
 }
 
 .workContainer {
-  padding: 10px 20%;
-  background-color: antiquewhite;
+  padding: 20px 20%;
+  /* background-color: antiquewhite; */
+  /* background-image: linear-gradient(to bottom, #ffffff, #f3ecf6, #efd7e6, #edc3ce, #e9afb0); */
 }
 
 .workHeader h1 {
-  background-color: brown;
+  background-color: goldenrod;
   padding: 20px;
+  margin: 0px;
   color: white;
 }
 
@@ -128,9 +150,9 @@ h1 {
 .coopContainer {
   padding: 20px;
   text-align: -webkit-center;
-  background-image: url("./images/8665.jpg");
+  /* background-image: url("./images/8665.jpg");
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: left top; */
 }
 
 .coopContainer h3 {
@@ -144,7 +166,7 @@ h1 {
 }
 
 .projectsContainer {
-  background-image: linear-gradient(to bottom, #ffffff, #f3ecf6, #efd7e6, #edc3ce, #e9afb0);    
+  background-image: linear-gradient(to bottom, #ffffff, #f3ecf6, #efd7e6, #edc3ce, #e9afb0);
   display: flex;
   justify-content: space-between;
   padding: 50px 10%;
@@ -156,25 +178,30 @@ h1 {
   padding: 1px 0px;
 }
 
-.project1:hover {
-    transition: all 300ms 1ms;
-    transform: scale(1.2);
+.coopHeader {
+  background-color: #00CCCC;
+  /* color: white; */
+  padding: 1px 0px;
 }
 
-/* .sideProjects {
-  padding: 30px;
-  display: flex;
-  justify-content: center;  
-  justify-content: space-evenly;
-} */
+.coopHeader h1 {
+  color: white;
+}
 
-.leftgrid, .rightgrid {
+.project1:hover {
+  transition: all 300ms 1ms;
+  transform: scale(1.2);
+}
+
+.leftgrid,
+.rightgrid {
   border-radius: 10;
   border-style: solid;
   border-color: #61dafb;
 }
 
-.leftgrid:hover, .rightgrid:hover {
+.leftgrid:hover,
+.rightgrid:hover {
   border-color: darkmagenta;
   transition: all 300ms 1ms;
   transform: scale(1.1);
@@ -185,21 +212,10 @@ h1 {
   padding: 20px 10%;
   color: white;
 }
-/* 
-.rnContainer  {
-  padding: 0 10%;
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;  
-} */
 
-.rnContainer h3 {
-  color: goldenrod;
-}
 
 .rnContainer h2 {
-  color: darkgreen;
+  color: goldenrod;
 }
 
 .volunteerContainer {
@@ -213,8 +229,8 @@ h1 {
 }
 
 .volunteerContainer div {
-    padding: 10px;
-    text-align: -webkit-center;
+  padding: 10px;
+  text-align: -webkit-center;
 }
 
 .hobbiesContainer {
@@ -244,27 +260,31 @@ h1 {
   column-count: 5;
 }
 
+.rnContainer div {
+  width: 350px;
+}
+
 /* desktop display */
 @media only screen and (min-width: 901px) {
 
   .sideProjects {
     padding: 30px;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     justify-content: space-evenly;
   }
 
-  .rnContainer  {
+  .rnContainer {
     padding: 0 10%;
     padding-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
-    text-align: center;  
+    text-align: center;
   }
 
-  .rnContainer div  {
-    width: 300px;
-  }
+  /* .rnContainer div {
+    width: 350px;
+  } */
 
   .hobbiesList ul {
     column-count: 5;
@@ -283,9 +303,9 @@ h1 {
   }
 
   .coopContainer ul li {
-    display:block;
+    display: block;
   }
-  
+
   .educationContainer {
     margin: 10px;
   }
@@ -295,24 +315,31 @@ h1 {
     text-align: -webkit-center;
   }
 
-  .rnContainer  {
+  .rnContainer {
     padding: 0 10%;
     padding-bottom: 50px;
-    text-align: -webkit-center; 
+    text-align: -webkit-center;
+  }
+
+  .rnContainer div {
+    width: 450px;
   }
 
   .hobbiesList ul {
     column-count: 3 !important;
   }
 
-  .hobbiesList ul li div{
+  .hobbiesList ul li div {
     padding: 2px;
   }
 }
 
 @media only screen and (max-width: 400px) {
 
-  .cvContainer, .coopContainer, .rnContainer, .educationContainer {
+  .cvContainer,
+  .coopContainer,
+  .rnContainer,
+  .educationContainer {
     padding: 0 5px;
   }
 
@@ -320,8 +347,12 @@ h1 {
     padding: 10px;
   }
 
-  .rnContainer img  {
+  .rnContainer img {
     width: 250px;
+  }
+
+  .rnContainer div {
+    width: 350px;
   }
 
   .educationContainer {
@@ -332,7 +363,7 @@ h1 {
     column-count: 2 !important;
   }
 
-  .hobbiesList ul li div{
+  .hobbiesList ul li div {
     padding: 0 2px;
-  } 
+  }
 }

@@ -2,7 +2,6 @@ import React from 'react'
 import '../App.css'
 
 import LinearProgress from '@mui/material/LinearProgress';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 function Nav() {
 

@@ -9,22 +9,17 @@ import IconButton from '@mui/material/IconButton';
 import reading from '../images/reading.jpg'
 import travelling from '../images/travelling.jpg'
 import food from '../images/food.jpg'
-import bubbleTea from '../images/bubbleTea.jpg'
 import gaming from '../images/gaming.jpg'
 import movies from '../images/movies.jpg'
-import anime from '../images/anime.jpg'
 import family from '../images/family.jpg'
-import workingOut from '../images/workingOut.jpg'
 import music from '../images/music.jpg'
 import badminton from '../images/badminton.jpg'
-import basketball from '../images/basketball.jpg'
-import soccer from '../images/soccer.jpg'
 import biking from '../images/biking.jpg'
 import swimming from '../images/swimming.jpg'
 import Box from '@mui/material/Box';
 
 
-function Hobbies () {
+function Hobbies() {
 
   const itemData = [
     {
@@ -39,42 +34,18 @@ function Hobbies () {
       img: badminton,
       title: 'Sports',
     },
-    // {
-    //   img: bubbleTea,
-    //   title: 'Bubble Tea',
-    // },
     {
       img: movies,
       title: 'Movies & Anime',
     },
-    // {
-    //     img: anime,
-    //     title: 'Anime',
-    // },
     {
       img: family,
-      title: 'Family/ Friends',
+      title: 'Family & Friends',
     },
     {
       img: travelling,
       title: 'Travelling',
     },
-    // {
-    //   img: workingOut,
-    //   title: 'Working Out',
-    // },
-    // {
-    //   img: badminton,
-    //   title: 'Badminton',
-    // },
-    // {
-    //   img: basketball,
-    //   title: 'Basketball',
-    // },
-    // {
-    //   img: soccer,
-    //   title: 'Soccer',
-    // },
     {
       img: gaming,
       title: 'Gaming',
@@ -84,8 +55,8 @@ function Hobbies () {
       title: 'Biking',
     },
     {
-        img: swimming,
-        title: 'Swimming',
+      img: swimming,
+      title: 'Swimming',
     },
     {
       img: food,
@@ -101,30 +72,30 @@ function Hobbies () {
 
       <Box className="hobbiesList">
 
-        <ImageList sx={{  }} variant="masonry" cols={5} gap={8}>
+        <ImageList sx={{}} variant="masonry" cols={5} gap={8}>
           {itemData.map((item) => (
             <ImageListItem>
-            <img
-              src={`${item.img}?w=248&fit=crop&auto=format`}
-              srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={item.title}
-              actionIcon={
-              <IconButton
-                sx={{ color: 'rgba(255, 255, 255, 0.54)'}}
-                aria-label={`info about ${item.title}`}
-              >
-              </IconButton>
-              }
-            />
+              <img
+                src={`${item.img}?w=248&fit=crop&auto=format`}
+                srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                alt={item.title}
+                loading="lazy"
+              />
+              <ImageListItemBar
+                title={item.title}
+                actionIcon={
+                  <IconButton
+                    sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                    aria-label={`info about ${item.title}`}
+                  >
+                  </IconButton>
+                }
+              />
             </ImageListItem>
           ))}
         </ImageList>
       </Box>
-      
+
     </div>
   )
 }

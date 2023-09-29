@@ -14,11 +14,16 @@ import CardMedia from '@mui/material/CardMedia';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Box from '@mui/material/Box';
-
+import Link from '@mui/material/Link';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import useTheme from '@mui/material/styles/useTheme';
 
 
 
 function Education() {
+
+    const theme = useTheme();
+
 
     const Grid = styled(MuiGrid)(({ theme }) => ({
         width: '100%',
@@ -44,12 +49,10 @@ function Education() {
                 Bachelor of Computer Information System
             </Typography>
             <Typography sx={{ mb: 1.5, fontSize: 'small'}} color="text.secondary">
-                <p>Sept 2019 - Dec 2022</p>
+                <p>Completed June 2023</p>
             </Typography>
             <ListItem sx={{color:'goldenrod'}}><ListItemText primary="Mount Royal University"/></ListItem>   
             <ListItem><ListItemText secondary="GPA 3.6"/></ListItem>   
-            <ListItem><ListItemText secondary="Dean’s Honor Roll (Fall 2019 - Winter 2022)"/></ListItem>   
-            <ListItem><ListItemText secondary="Jason Lang’s Scholarship (2020 - 2022)"/></ListItem>  
         </div>
     );
 
@@ -59,7 +62,7 @@ function Education() {
                 Bachelor of Nursing
             </Typography>
             <Typography sx={{ mb: 1.5, fontSize: 'small' }} color="text.secondary">
-                <p>Sept 2014 - Jun 2018</p>
+                <p>Completed June 2018</p>
             </Typography>
             <ListItem sx={{color:'goldenrod'}}><ListItemText primary="Mount Royal University"/></ListItem>   
             <ListItem><ListItemText secondary="GPA 3.4"/></ListItem>   
@@ -67,7 +70,11 @@ function Education() {
     );
 
     return (
-        <div className='educationContainer'>
+        <div className='educationHeader'>
+
+            <h1>Education</h1>
+
+            <div className='educationContainer'>
 
             <Box 
                 sx={{
@@ -85,11 +92,10 @@ function Education() {
                     },
                 }}
             >
-                <Skills />
                 
-                <Root>
+                {/* <Root >*/}
                     <Grid item xs className="topgrid">
-                        <Card sx={{width: 330}}>
+                        <Card sx={{width: 410}}>
                         <CardMedia
                             sx={{ height: 200}}
                             image={bcisLogo}
@@ -101,10 +107,8 @@ function Education() {
                         </Card>
                     </Grid>
 
-                    <Divider sx={{color:'blue', padding: 1}}>EDUCATION</Divider>
-
                     <Grid item xs className="botgrid">
-                    <Card  sx={{width: 330}}>
+                    <Card  sx={{width: 410}}>
                         <CardMedia
                             sx={{ height: 200}}
                             image={nursingLogo}
@@ -115,8 +119,9 @@ function Education() {
                         </CardContent>
                         </Card>
                     </Grid>
-                </Root>
+                {/* </Root> */}
             </Box>
+            </div>
 
         </div>
     )
